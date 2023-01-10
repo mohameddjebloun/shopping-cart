@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "T-Shirt",
+    "category": "Clothing",
+    "price": 25
+  },
+  {
+    "id": 2,
+    "name": "Dress",
+    "category": "Clothing",
+    "price": 50
+  },
+  {
+    "id": 3,
+    "name": "Jeans",
+    "category": "Clothing",
+    "price": 40
+  },
+  {
+    "id": 4,
+    "name": "Jacket",
+    "category": "Clothing",
+    "price": 75
+  },
+  {
+    "id": 5,
+    "name": "Sweater",
+    "category": "Clothing",
+    "price": 35
+  },
+  {
+    "id": 6,
+    "name": "Sneakers",
+    "category": "Shoes",
+    "price": 100
+  },
+  {
+    "id": 7,
+    "name": "Boots",
+    "category": "Shoes",
+    "price": 150
+  },
+  {
+    "id": 8,
+    "name": "Sandals",
+    "category": "Shoes",
+    "price": 50
+  },
+  {
+    "id": 9,
+    "name": "Heels",
+    "category": "Shoes",
+    "price": 75
+  },
+  {
+    "id": 10,
+    "name": "Hat",
+    "category": "Accessories",
+    "price": 25
+  },
+  {
+    "id": 11,
+    "name": "Bag",
+    "category": "Accessories",
+    "price": 50
+  }
+]
