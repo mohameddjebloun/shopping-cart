@@ -6,7 +6,7 @@ import Shop from "./pages/Shop";
 function App() {
   return (
     <React.Fragment>
-      <nav className="navbar bg-base-100 flex justify-center">
+      <nav className="navbar bg-base-100 flex justify-center top-0 z-50 h-fit w-full sticky">
         <Link className="btn btn-ghost normal-case text-xl" to="/">
           Home
         </Link>
