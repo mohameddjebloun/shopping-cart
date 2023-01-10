@@ -24,6 +24,7 @@ const Shop = () => {
             return (
               <ProductCard
                 key={product.id}
+                id={product.id}
                 name={product.name}
                 price={product.price}
               />
