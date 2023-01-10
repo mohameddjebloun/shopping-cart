@@ -1,3 +1,5 @@
+import { useDispatch } from "react-redux";
+import { cartActions } from "../store/cart-slice";
 //Import images
 import tshirt from "../assets/clothes/tshirt.jpg";
 import dress from "../assets/clothes/dress.jpg";
@@ -40,6 +42,16 @@ const renderImg = (src) => {
   }
 };
 const ProductCard = (props) => {
+  const dispatch = useDispatch();
+  const addToCartHandler = () => {
+    dispatch(
+      cartActions.addItemToCart({
+        id: props.id,
+        price: props.price,
+        title: props.name,
+      })
+    );
+  };
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
       <figure className="px-10 pt-10">
@@ -52,7 +64,9 @@ const ProductCard = (props) => {
       <div className="card-body items-center text-center">
         <h2 className="card-title">{props.name}</h2>
         <div className="card-actions">
-          <button className="btn btn-primary">Add To Cart</button>
+          <button onClick={addToCartHandler} className="btn btn-primary">
+            Add To Cart
+          </button>
         </div>
         <div className="stat">
           <div className="stat-value">${props.price}</div>
